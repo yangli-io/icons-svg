@@ -1,3 +1,4 @@
 - [ ] Add typescript
 - [ ] Setup NPM
 - [ ] Add checkboxes
+- [ ] Add storybook or something similar

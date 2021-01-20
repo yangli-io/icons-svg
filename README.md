@@ -1,3 +1,3 @@
 # React Icons SVG
 
-Adding a bunch of useful icons here
+Adding a bunch of useful SVG icons in react.js
