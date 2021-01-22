@@ -1,5 +1,10 @@
 import React from "react"
-import { Link as Props } from '../../types'
+
+export interface Props {
+  color?: string
+  className?: string
+  onClick?: () => void
+}
 
 export default function Link({ className, color, onClick }: Props): JSX.Element {
   return (

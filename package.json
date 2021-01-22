@@ -1,10 +1,12 @@
 {
   "name": "react-icons-svg",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
-  "main": "/lib/src/index.js",
+  "types": "/lib/index.d.ts",
+  "main": "/lib/index.js",
   "scripts": {
-    "build": "tsc"
+    "clean": "rm -rf lib",
+    "build": "npm run clean && tsc"
   },
   "repository": {
     "type": "git",

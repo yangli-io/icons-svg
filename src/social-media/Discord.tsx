@@ -1,5 +1,10 @@
 import React from 'react';
-import { Discord as Props } from '../../types'
+
+export interface Props {
+  color?: string
+  className?: string
+  onClick?: () => void
+}
 
 export default function Discord({ color = '#000', className, onClick }: Props) {
   return (
